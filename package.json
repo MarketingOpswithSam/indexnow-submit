@@ -1,0 +1,15 @@
+{
+  "name": "indexnow-submit",
+  "version": "1.0.0",
+  "description": "Ping Bing and other IndexNow engines when you publish. Zero dependencies.",
+  "type": "module",
+  "bin": { "indexnow-submit": "indexnow.mjs" },
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "keywords": ["indexnow","seo","bing"],
+  "license": "MIT",
+  "author": "Marketing Ops with Sam (https://marketingopswithsam.com)",
+  "homepage": "https://github.com/MarketingOpswithSam/indexnow-submit#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/MarketingOpswithSam/indexnow-submit.git" },
+  "bugs": { "url": "https://github.com/MarketingOpswithSam/indexnow-submit/issues" }
+}

@@ -11,6 +11,8 @@ One file, no dependencies, Node 18 or newer.
 
 ## Use it
 
+No install needed, just prefix the commands below with `npx github:MarketingOpswithSam/indexnow-submit` instead of `node indexnow.mjs`. Or clone the repo and run the script directly.
+
 Submit specific pages after publishing:
 
 ```bash
