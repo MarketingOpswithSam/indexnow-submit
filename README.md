@@ -33,6 +33,7 @@ The script checks that your key file is live before it submits, and sends batche
 
 - Google does not use IndexNow. For Google, use Search Console's URL Inspection.
 - A 200 or 202 response means the submission was accepted, not that the page is indexed.
+- **HTTP 403 `UserForbiddedToAccessSite`:** Bing accepts one key per site. If you already use Cloudflare's IndexNow feature (Crawler Hints) or a CMS plugin, that tool registered its own key and Bing refuses any other. Check the IndexNow page in Bing Webmaster Tools: if it lists submissions from Cloudflare or a plugin, your pages are already being pinged and you don't need this script.
 - Submit only pages that changed. Resubmitting the whole sitemap daily gets ignored.
 
 ## Licence
